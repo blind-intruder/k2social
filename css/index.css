@@ -1,0 +1,47 @@
+.header{
+max-height: auto;
+background-color: #005081;
+}
+.login{
+margin-top:20px;
+color:white;
+}
+.logo{
+margin-top:5px;
+max-height: 100px;
+}
+.submit-login{
+margin-top: 10px;
+}
+.main{
+height:auto;
+background-color: #e1ebf5;
+}
+.footer{
+background-color: white;
+height:auto;
+}
+.signup-form{
+	margin-top: 20px;
+}
+.front-image{
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  .front-image{
+        visibility: hidden;
+        position: fixed;
+        display: none;
+  }
+  .signup-form{
+  margin-top: 10px;
+  }
+  .pass{
+  	margin-top: 20px;
+  }
+  .logo{
+  	margin-left: 40%;
+  }
+}
